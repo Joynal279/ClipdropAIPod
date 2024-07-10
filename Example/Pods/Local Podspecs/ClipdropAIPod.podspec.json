@@ -1,0 +1,27 @@
+{
+  "name": "ClipdropAIPod",
+  "version": "0.1.0",
+  "summary": "A short description of ClipdropAIPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/joynalcu7@gmail.com/ClipdropAIPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "joynalcu7@gmail.com": "44470728+Joynal279@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/joynalcu7@gmail.com/ClipdropAIPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ClipdropAIPod/Classes/**/*",
+  "resource_bundles": {
+    "Resources": [
+      "ClipdropAIPod/Assets/worldIcon.png"
+    ]
+  }
+}

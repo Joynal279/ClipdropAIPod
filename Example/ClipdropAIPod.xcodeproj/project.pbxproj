@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		170BC054CD643A9DE1B7EB57 /* Pods-ClipdropAIPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipdropAIPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-ClipdropAIPod_Example/Pods-ClipdropAIPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		354F8A252E7217782EE45164 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		354F8A252E7217782EE45164 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ClipdropAIPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipdropAIPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7B8371906154B942CEB05402 /* Pods-ClipdropAIPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipdropAIPod_Example.release.xcconfig"; path = "Target Support Files/Pods-ClipdropAIPod_Example/Pods-ClipdropAIPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		80B1AF88B4558C6B3E1CA1D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		80B1AF88B4558C6B3E1CA1D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		828DF79DBE078FF905AC19CF /* Pods_ClipdropAIPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClipdropAIPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C5C9BC945C39C0E8D4E14D /* Pods_ClipdropAIPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClipdropAIPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC74EF3EB8EDDA4D0EDDFE08 /* Pods-ClipdropAIPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipdropAIPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-ClipdropAIPod_Tests/Pods-ClipdropAIPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D2246CCA62C2669E894DE41B /* ClipdropAIPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ClipdropAIPod.podspec; path = ../ClipdropAIPod.podspec; sourceTree = "<group>"; };
+		D2246CCA62C2669E894DE41B /* ClipdropAIPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ClipdropAIPod.podspec; path = ../ClipdropAIPod.podspec; sourceTree = "<group>"; };
 		E49A62C9E96F1193404436B5 /* Pods-ClipdropAIPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipdropAIPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ClipdropAIPod_Tests/Pods-ClipdropAIPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				E49A62C9E96F1193404436B5 /* Pods-ClipdropAIPod_Tests.debug.xcconfig */,
 				BC74EF3EB8EDDA4D0EDDFE08 /* Pods-ClipdropAIPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = VT9QW74UCT;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = VT9QW74UCT;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,7 +480,9 @@
 			baseConfigurationReference = 170BC054CD643A9DE1B7EB57 /* Pods-ClipdropAIPod_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VT9QW74UCT;
 				INFOPLIST_FILE = ClipdropAIPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +497,9 @@
 			baseConfigurationReference = 7B8371906154B942CEB05402 /* Pods-ClipdropAIPod_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VT9QW74UCT;
 				INFOPLIST_FILE = ClipdropAIPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E49A62C9E96F1193404436B5 /* Pods-ClipdropAIPod_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = VT9QW74UCT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -516,6 +523,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,11 +537,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC74EF3EB8EDDA4D0EDDFE08 /* Pods-ClipdropAIPod_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = VT9QW74UCT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

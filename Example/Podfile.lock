@@ -1,0 +1,16 @@
+PODS:
+  - ClipdropAIPod (0.1.0)
+
+DEPENDENCIES:
+  - ClipdropAIPod (from `../`)
+
+EXTERNAL SOURCES:
+  ClipdropAIPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ClipdropAIPod: 3ea2362258bc518220554aa33e5dc9c449cd81ee
+
+PODFILE CHECKSUM: 4e189367a1cf95fb2ada6337215cacd4eb9f3571
+
+COCOAPODS: 1.11.3

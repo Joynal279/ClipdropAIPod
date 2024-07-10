@@ -1,0 +1,6 @@
+framework module Pods_ClipdropAIPod_Tests {
+  umbrella header "Pods-ClipdropAIPod_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

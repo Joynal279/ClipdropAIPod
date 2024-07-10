@@ -1,0 +1,6 @@
+framework module ClipdropAIPod {
+  umbrella header "ClipdropAIPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
