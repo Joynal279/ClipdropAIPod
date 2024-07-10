@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ClipdropAIPod_Example' do
+  pod 'ClipdropAIPod', :path => '../'
+
+  target 'ClipdropAIPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
