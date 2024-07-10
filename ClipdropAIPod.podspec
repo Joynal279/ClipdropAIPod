@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/joynalcu7@gmail.com/ClipdropAIPod'
+  s.homepage         = 'https://github.com/Joynal279/ClipdropAIPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'joynalcu7@gmail.com' => '44470728+Joynal279@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/joynalcu7@gmail.com/ClipdropAIPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Joynal279/ClipdropAIPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_version = '5.0'
