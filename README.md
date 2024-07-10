@@ -22,7 +22,7 @@ pod 'ClipdropAIPod'
 
 ## Author
 
-joynalcu7@gmail.com, 44470728+Joynal279@users.noreply.github.com
+JOYNAL ABEDIN, joynalcu7@gmail.com
 
 ## License
 
