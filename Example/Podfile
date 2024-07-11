@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '12.0'
 
 target 'ClipdropAIPod_Example' do
   pod 'ClipdropAIPod', :path => '../'

@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (5.9.1)
-  - ClipdropAIPod (1.0.1):
+  - ClipdropAIPod (1.0.4):
     - Alamofire (~> 5.9.1)
 
 DEPENDENCIES:
@@ -17,8 +17,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
-  ClipdropAIPod: e5b5db20f04523a10804ea821a25e2251c907ce9
+  ClipdropAIPod: 1d5c4ccf7e42b670a056e92e0436b46a36f5d6af
 
-PODFILE CHECKSUM: 20a681b84bcef9188e7d02612723e4c271e300fe
+PODFILE CHECKSUM: fda7ba6df92023863ebed7feb01ccd51a781b03d
 
 COCOAPODS: 1.15.2
