@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ClipdropAIPod'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'This is a Clipdrop AI photo editing pod'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_version = '5.0'
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ClipdropAIPod/Classes/ClipDrop.swift'
   
