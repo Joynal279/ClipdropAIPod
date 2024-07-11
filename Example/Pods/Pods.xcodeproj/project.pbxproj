@@ -75,6 +75,7 @@
 		F2D4CB602C406FF60084CCFD /* SketchToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D4CB572C406FF60084CCFD /* SketchToImage.swift */; };
 		F2D4CB612C406FF60084CCFD /* UpScaleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D4CB582C406FF60084CCFD /* UpScaleImage.swift */; };
 		F2D4CB622C406FF60084CCFD /* CleanUpImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D4CB592C406FF60084CCFD /* CleanUpImage.swift */; };
+		F2D4CB692C407A530084CCFD /* ClipdropAIPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7AE013682D5DCD42A8B6C10206274 /* ClipdropAIPod.podspec */; };
 		F4DD0AD58DDD5641BDEAEA6CF44FF0ED /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0934D2433B5CAE21301E4EC517D18E36 /* Protected.swift */; };
 		F7E576E007A81E0EFD2E0849CB17878D /* WebSocketRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786E57F4F2DA1575D23FC22FE0A43E59 /* WebSocketRequest.swift */; };
 		FCE62086E1AB54A4F61EBCDBA15C1510 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F840BAE73398E724FBC181C8526FF /* EventMonitor.swift */; };
@@ -704,6 +705,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A89005A45CE9B5C9C417FE69005D626 /* ClipdropAIPod-Resources in Resources */,
+				F2D4CB692C407A530084CCFD /* ClipdropAIPod.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
