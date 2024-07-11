@@ -45,7 +45,7 @@
 		828DF79DBE078FF905AC19CF /* Pods_ClipdropAIPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClipdropAIPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C5C9BC945C39C0E8D4E14D /* Pods_ClipdropAIPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClipdropAIPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC74EF3EB8EDDA4D0EDDFE08 /* Pods-ClipdropAIPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipdropAIPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-ClipdropAIPod_Tests/Pods-ClipdropAIPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D2246CCA62C2669E894DE41B /* ClipdropAIPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ClipdropAIPod.podspec; path = ../ClipdropAIPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D2246CCA62C2669E894DE41B /* ClipdropAIPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ClipdropAIPod.podspec; path = ../ClipdropAIPod.podspec; sourceTree = "<group>"; };
 		E49A62C9E96F1193404436B5 /* Pods-ClipdropAIPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipdropAIPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ClipdropAIPod_Tests/Pods-ClipdropAIPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
