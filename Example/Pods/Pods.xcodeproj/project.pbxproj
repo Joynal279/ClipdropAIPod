@@ -66,6 +66,15 @@
 		E0F79CCACC649C183F1BEC4D0AE8E0A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0CF09BB207BA023C756B7A31D88BC0 /* UIKit.framework */; };
 		E3E5EE924CDBB1FF8C71DDB95789A570 /* Pods-ClipdropAIPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86351DB901ABE3F7995B00C24ED13865 /* Pods-ClipdropAIPod_Example-dummy.m */; };
 		E6ED06AC318A34F7744B32CEC759CDA9 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3813B32A501739AD1B0CD24D6705223 /* Response.swift */; };
+		F2D4CB5A2C406FF60084CCFD /* TextToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D4CB512C406FF50084CCFD /* TextToImage.swift */; };
+		F2D4CB5B2C406FF60084CCFD /* UnCropImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D4CB522C406FF60084CCFD /* UnCropImage.swift */; };
+		F2D4CB5C2C406FF60084CCFD /* ReImagine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D4CB532C406FF60084CCFD /* ReImagine.swift */; };
+		F2D4CB5D2C406FF60084CCFD /* ReplaceBG.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D4CB542C406FF60084CCFD /* ReplaceBG.swift */; };
+		F2D4CB5E2C406FF60084CCFD /* RemoveText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D4CB552C406FF60084CCFD /* RemoveText.swift */; };
+		F2D4CB5F2C406FF60084CCFD /* RemoveBG.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D4CB562C406FF60084CCFD /* RemoveBG.swift */; };
+		F2D4CB602C406FF60084CCFD /* SketchToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D4CB572C406FF60084CCFD /* SketchToImage.swift */; };
+		F2D4CB612C406FF60084CCFD /* UpScaleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D4CB582C406FF60084CCFD /* UpScaleImage.swift */; };
+		F2D4CB622C406FF60084CCFD /* CleanUpImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D4CB592C406FF60084CCFD /* CleanUpImage.swift */; };
 		F4DD0AD58DDD5641BDEAEA6CF44FF0ED /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0934D2433B5CAE21301E4EC517D18E36 /* Protected.swift */; };
 		F7E576E007A81E0EFD2E0849CB17878D /* WebSocketRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786E57F4F2DA1575D23FC22FE0A43E59 /* WebSocketRequest.swift */; };
 		FCE62086E1AB54A4F61EBCDBA15C1510 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1F840BAE73398E724FBC181C8526FF /* EventMonitor.swift */; };
@@ -151,10 +160,10 @@
 		3B4B512BA32260697DF1465EF0D26E79 /* DataRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataRequest.swift; path = Source/Core/DataRequest.swift; sourceTree = "<group>"; };
 		3C957AC8DECBCDB4BE3BAB4DDA7D78D2 /* Pods-ClipdropAIPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClipdropAIPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3CA812E7B0B11BC74C0AB7C8FDD7E383 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/Features/CachedResponseHandler.swift; sourceTree = "<group>"; };
-		3DA7AE013682D5DCD42A8B6C10206274 /* ClipdropAIPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ClipdropAIPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3DA7AE013682D5DCD42A8B6C10206274 /* ClipdropAIPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ClipdropAIPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3FC29CEC83082F76FACA6ECB7F0323D5 /* Pods-ClipdropAIPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClipdropAIPod_Tests-Info.plist"; sourceTree = "<group>"; };
 		423CCA7566D311F10C60D6C94C062C91 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/Features/MultipartFormData.swift; sourceTree = "<group>"; };
-		429A2B27C9A112C0DDA78D2BD4829FF2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		429A2B27C9A112C0DDA78D2BD4829FF2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		459AF933A0209EE5CFF2BB424F3B141F /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Features/Validation.swift; sourceTree = "<group>"; };
 		49994A2C274AC8AC6A846F822FEDC64A /* UploadRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UploadRequest.swift; path = Source/Core/UploadRequest.swift; sourceTree = "<group>"; };
 		54B00F3C8E40AA2994A18004C8548014 /* ResourceBundle-Alamofire-Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Alamofire-Alamofire-Info.plist"; sourceTree = "<group>"; };
@@ -185,7 +194,7 @@
 		98A9A99E62C9AF35A26413DAAA46AEB3 /* Pods-ClipdropAIPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClipdropAIPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9B661F12F170C7B538CFC843C15122AC /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Features/Combine.swift; sourceTree = "<group>"; };
 		9CA19670FE616D0F4A0CDDC89546F0A4 /* Pods-ClipdropAIPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClipdropAIPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC8041970D88C4AB47B7F85ADD5B689 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Core/Notifications.swift; sourceTree = "<group>"; };
 		A156FC29CFB589AC9D43303E9FF44F4B /* ResourceBundle-Resources-ClipdropAIPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Resources-ClipdropAIPod-Info.plist"; sourceTree = "<group>"; };
 		A602DFBE8344434F2421B2A90900B31A /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/Extensions/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
@@ -206,14 +215,23 @@
 		D36A096FB082A79D597EBB420437ED4D /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/Core/ParameterEncoding.swift; sourceTree = "<group>"; };
 		D3813B32A501739AD1B0CD24D6705223 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Core/Response.swift; sourceTree = "<group>"; };
 		D79A0EF6FC3DBE6205C73C23A3DDA17D /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
-		D85B938A39D7F33F5FC55FF6FDD23854 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DA82429B51A805EA2CB988BF8B30C7DE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Source/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D85B938A39D7F33F5FC55FF6FDD23854 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DA82429B51A805EA2CB988BF8B30C7DE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Source/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		DF83845BB36207190DB696FC4C4F3BDE /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 		E140810A6FF8DAB6BF2354BC77033089 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/Core/RequestTaskMap.swift; sourceTree = "<group>"; };
 		E20D6780B89D1F6BA9FFF5D19D188AE3 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/Features/RetryPolicy.swift; sourceTree = "<group>"; };
 		E6213792C704D1F49B735A562D2FE09F /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/Features/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		EB875B7C7F84D84E946466489A3E32D5 /* Pods-ClipdropAIPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClipdropAIPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EE5B1D0B20B04A8179483506F9CCAE2C /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/Core/ParameterEncoder.swift; sourceTree = "<group>"; };
+		F2D4CB512C406FF50084CCFD /* TextToImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextToImage.swift; path = ClipdropAIPod/Classes/TextToImage.swift; sourceTree = "<group>"; };
+		F2D4CB522C406FF60084CCFD /* UnCropImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnCropImage.swift; path = ClipdropAIPod/Classes/UnCropImage.swift; sourceTree = "<group>"; };
+		F2D4CB532C406FF60084CCFD /* ReImagine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReImagine.swift; path = ClipdropAIPod/Classes/ReImagine.swift; sourceTree = "<group>"; };
+		F2D4CB542C406FF60084CCFD /* ReplaceBG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReplaceBG.swift; path = ClipdropAIPod/Classes/ReplaceBG.swift; sourceTree = "<group>"; };
+		F2D4CB552C406FF60084CCFD /* RemoveText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemoveText.swift; path = ClipdropAIPod/Classes/RemoveText.swift; sourceTree = "<group>"; };
+		F2D4CB562C406FF60084CCFD /* RemoveBG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemoveBG.swift; path = ClipdropAIPod/Classes/RemoveBG.swift; sourceTree = "<group>"; };
+		F2D4CB572C406FF60084CCFD /* SketchToImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SketchToImage.swift; path = ClipdropAIPod/Classes/SketchToImage.swift; sourceTree = "<group>"; };
+		F2D4CB582C406FF60084CCFD /* UpScaleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpScaleImage.swift; path = ClipdropAIPod/Classes/UpScaleImage.swift; sourceTree = "<group>"; };
+		F2D4CB592C406FF60084CCFD /* CleanUpImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CleanUpImage.swift; path = ClipdropAIPod/Classes/CleanUpImage.swift; sourceTree = "<group>"; };
 		F87FBB8252D84206223CB64FCA89661B /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/Features/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
 		FC907C5C56594798E47B7ED0C4BA25E8 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		FDC08A1DEAC17BC90DB200CE8E9834C8 /* Pods-ClipdropAIPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClipdropAIPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -384,7 +402,6 @@
 				AAE98C90A1A09314C616A0D8C9AD32BE /* Resources */,
 				2C2535ED1C7342AC8C4CC2C302349808 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -481,6 +498,15 @@
 			isa = PBXGroup;
 			children = (
 				8723F1644D987E6AC177D705B86A0181 /* ClipDrop.swift */,
+				F2D4CB592C406FF60084CCFD /* CleanUpImage.swift */,
+				F2D4CB532C406FF60084CCFD /* ReImagine.swift */,
+				F2D4CB562C406FF60084CCFD /* RemoveBG.swift */,
+				F2D4CB552C406FF60084CCFD /* RemoveText.swift */,
+				F2D4CB542C406FF60084CCFD /* ReplaceBG.swift */,
+				F2D4CB572C406FF60084CCFD /* SketchToImage.swift */,
+				F2D4CB512C406FF50084CCFD /* TextToImage.swift */,
+				F2D4CB522C406FF60084CCFD /* UnCropImage.swift */,
+				F2D4CB582C406FF60084CCFD /* UpScaleImage.swift */,
 				19AE3D668ACFA996A58C5A67777658D6 /* worldIcon.png */,
 				3F0A0CBB43BF496A71441F69051E6901 /* Pod */,
 				A2A43A5B155A6D1603667E1B25BBE7D9 /* Support Files */,
@@ -733,8 +759,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D4CB5F2C406FF60084CCFD /* RemoveBG.swift in Sources */,
+				F2D4CB612C406FF60084CCFD /* UpScaleImage.swift in Sources */,
+				F2D4CB602C406FF60084CCFD /* SketchToImage.swift in Sources */,
+				F2D4CB5E2C406FF60084CCFD /* RemoveText.swift in Sources */,
 				76A928AF94CC89AF4F736855C9E0FD55 /* ClipDrop.swift in Sources */,
 				DFB346454152629F90801A336FAB2EDC /* ClipdropAIPod-dummy.m in Sources */,
+				F2D4CB5C2C406FF60084CCFD /* ReImagine.swift in Sources */,
+				F2D4CB5B2C406FF60084CCFD /* UnCropImage.swift in Sources */,
+				F2D4CB5A2C406FF60084CCFD /* TextToImage.swift in Sources */,
+				F2D4CB5D2C406FF60084CCFD /* ReplaceBG.swift in Sources */,
+				F2D4CB622C406FF60084CCFD /* CleanUpImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1099,8 +1134,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
