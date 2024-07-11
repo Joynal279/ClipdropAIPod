@@ -133,7 +133,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02381407A9806BD31B2934AE646A7549 /* ClipdropAIPod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ClipdropAIPod; path = ClipdropAIPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02381407A9806BD31B2934AE646A7549 /* ClipdropAIPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ClipdropAIPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		041DF27B8B1815AAEF09CB48AB68D5F4 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/Features/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
 		067AB8E24EAE45E48C29608A9CC4F3A0 /* Pods-ClipdropAIPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClipdropAIPod_Example-umbrella.h"; sourceTree = "<group>"; };
 		085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alamofire.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -311,7 +311,7 @@
 			children = (
 				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
 				085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire.bundle */,
-				02381407A9806BD31B2934AE646A7549 /* ClipdropAIPod */,
+				02381407A9806BD31B2934AE646A7549 /* ClipdropAIPod.framework */,
 				22C8F8CC5AE8D8FFF73EAAA3F3CFE037 /* ClipdropAIPod-Resources */,
 				AAE26FBA61C4D47B28809C906BBF9017 /* Pods-ClipdropAIPod_Example */,
 				BA5399FF97AE6967B987F42C1E42B93D /* Pods-ClipdropAIPod_Tests */,
@@ -663,7 +663,7 @@
 			);
 			name = ClipdropAIPod;
 			productName = ClipdropAIPod;
-			productReference = 02381407A9806BD31B2934AE646A7549 /* ClipdropAIPod */;
+			productReference = 02381407A9806BD31B2934AE646A7549 /* ClipdropAIPod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -911,7 +911,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ClipdropAIPod/ClipdropAIPod-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ClipdropAIPod/ClipdropAIPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ClipdropAIPod/ClipdropAIPod.modulemap";
 				PRODUCT_MODULE_NAME = ClipdropAIPod;
@@ -1342,7 +1342,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ClipdropAIPod/ClipdropAIPod-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ClipdropAIPod/ClipdropAIPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ClipdropAIPod/ClipdropAIPod.modulemap";
 				PRODUCT_MODULE_NAME = ClipdropAIPod;
