@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ClipdropAIPod'
-  s.version          = '1.1.9'
+  s.version          = '1.2.1'
   s.summary          = 'This is a Clipdrop AI photo editing pod'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.swift_version = '5.0'
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'ClipdropAIPod/Classes/ClipDrop.swift'
+  s.source_files = 'ClipdropAIPod/Classes/**/*'
   
   s.resource_bundles = {
     'Resources' => ['ClipdropAIPod/Assets/worldIcon.png']
@@ -39,5 +39,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'SwiftUI'
-  #s.dependency 'Alamofire', '~> 5.9.1'
+  s.dependency 'AFNetworking', '~> 5.9.1'
 end
