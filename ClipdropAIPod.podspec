@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ClipdropAIPod'
-  s.version          = '1.0.1'
+  s.version          = '1.0.3'
   s.summary          = 'This is a Clipdrop AI photo editing pod'
 
 # This description is used to generate tags and improve search results.
