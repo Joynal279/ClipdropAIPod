@@ -49,15 +49,15 @@
 		02381407A9806BD31B2934AE646A7549 /* ClipdropAIPod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ClipdropAIPod; path = ClipdropAIPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C8F8CC5AE8D8FFF73EAAA3F3CFE037 /* ClipdropAIPod-Resources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ClipdropAIPod-Resources"; path = Resources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		243B5E7649D44597FB415B439E4A23F7 /* Pods-ClipdropAIPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClipdropAIPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2441CBF9B76B7DEE2BE624C54CF60888 /* ClipdropAIPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ClipdropAIPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2441CBF9B76B7DEE2BE624C54CF60888 /* ClipdropAIPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ClipdropAIPod.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		26BC6B2356746159E8BF71A3602CD508 /* Pods-ClipdropAIPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClipdropAIPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3B568EC8A6F8FF6CC0A0844CF0BED57A /* worldIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = worldIcon.png; path = ClipdropAIPod/Assets/worldIcon.png; sourceTree = "<group>"; };
 		41024207E45FC4A595946720DD7300BF /* Pods-ClipdropAIPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClipdropAIPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		55CC9AC1EAD64B58989C8ABECFEF5BB6 /* ClipdropAIPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ClipdropAIPod-prefix.pch"; sourceTree = "<group>"; };
-		5EF5584693798533E6D764ABEC122EA6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5EF5584693798533E6D764ABEC122EA6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		643DECD2CCDF24C37A3017B8AA860544 /* ClipdropAIPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ClipdropAIPod-dummy.m"; sourceTree = "<group>"; };
 		64F5D4D3C327D9CC6767F6274A9F858E /* ClipdropAIPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClipdropAIPod.release.xcconfig; sourceTree = "<group>"; };
-		6D6E003D2D8DF050213AE63864A83C01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6D6E003D2D8DF050213AE63864A83C01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7724D89A909047AE6E31B70A0B187211 /* Pods-ClipdropAIPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClipdropAIPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		83B52A712D5F9337595D2E705CC5EB28 /* Pods-ClipdropAIPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClipdropAIPod_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		8D0CD173BBA6E9DA4B84C9340E3A59B2 /* ClipdropAIPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ClipdropAIPod.debug.xcconfig; sourceTree = "<group>"; };
 		8D15990AEAC12E4572AF0A7CF64AA6AC /* Pods-ClipdropAIPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ClipdropAIPod_Tests.modulemap"; sourceTree = "<group>"; };
 		99645CFA7CE8938687C6B4CF0684456D /* Pods-ClipdropAIPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClipdropAIPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A272474A46FA2A7B2ECB1B2E26D1B640 /* Pods-ClipdropAIPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClipdropAIPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		A806C1E6AC20500E563CC3FE1FD09637 /* Pods-ClipdropAIPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClipdropAIPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A8E7ED9C04365D8E01FF023821FA3DC6 /* ClipdropAIPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ClipdropAIPod-Info.plist"; sourceTree = "<group>"; };
@@ -656,8 +656,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
