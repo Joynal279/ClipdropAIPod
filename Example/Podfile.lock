@@ -1,16 +1,24 @@
 PODS:
-  - ClipdropAIPod (0.1.0)
+  - Alamofire (5.9.1)
+  - ClipdropAIPod (1.0.1):
+    - Alamofire (~> 5.9.1)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.9.1)
   - ClipdropAIPod (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   ClipdropAIPod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ClipdropAIPod: 3ea2362258bc518220554aa33e5dc9c449cd81ee
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  ClipdropAIPod: e5b5db20f04523a10804ea821a25e2251c907ce9
 
-PODFILE CHECKSUM: 4e189367a1cf95fb2ada6337215cacd4eb9f3571
+PODFILE CHECKSUM: 20a681b84bcef9188e7d02612723e4c271e300fe
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.15.2

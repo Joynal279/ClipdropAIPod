@@ -7,7 +7,7 @@ target 'ClipdropAIPod_Example' do
 
   target 'ClipdropAIPod_Tests' do
     inherit! :search_paths
-
+pod 'Alamofire', '~> 5.9.1'
     
   end
 end

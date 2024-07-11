@@ -31,13 +31,13 @@ TODO: Add long description of the pod here.
   s.swift_version = '5.0'
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'ClipdropAIPod/Classes/Logger.swift'
+  s.source_files = 'ClipdropAIPod/Classes/ClipDrop.swift'
   
   s.resource_bundles = {
     'Resources' => ['ClipdropAIPod/Assets/worldIcon.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'SwiftUI'
+  s.dependency 'Alamofire', '~> 5.9.1'
 end
